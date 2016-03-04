@@ -13,7 +13,7 @@ apply plugin: 'eclipse'
 apply plugin: 'spring-boot'
 
 allprojects{ project ->
-	group = "us.kellerman.examples."
+	group = "us.kellerman.examples"
 	version = '0.1.0'
 }
 
