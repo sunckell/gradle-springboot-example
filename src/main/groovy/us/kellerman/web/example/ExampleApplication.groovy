@@ -1,7 +1,7 @@
 package us.kellerman.web.example
 
 
-import org.springframework.boot.SpringApplication;
+import org.springframework.boot.SpringApplication
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.context.embedded.ConfigurableEmbeddedServletContainer
 import org.springframework.boot.context.embedded.EmbeddedServletContainerCustomizer
@@ -17,7 +17,7 @@ class ExampleApplication {
 		ApplicationContext ctx = SpringApplication.run(ExampleApplication.class, args);
 		System.out.println(ctx.getDisplayName());
 		
-		System.out.println("Gradle Pipeline Spring Boot Example");
+		System.out.println("Gradle Pipeline to AWS - Spring Boot Example");
 
 	}
 
