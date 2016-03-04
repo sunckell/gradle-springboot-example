@@ -10,6 +10,6 @@ node {
     stage 'Build'
     
     // Run the gradle build
-    sh './gradlew build'
+    sh './gradlew clean build'
    	
 }
