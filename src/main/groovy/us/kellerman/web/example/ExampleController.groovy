@@ -10,4 +10,5 @@ class ExampleController {
 	public String exampleIt(){
 		return "You made it to the Jenkins Pipeline Spring Boot example. ";
 	}
+
 }
