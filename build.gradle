@@ -12,9 +12,15 @@ apply plugin: 'groovy'
 apply plugin: 'eclipse'
 apply plugin: 'spring-boot'
 
+allprojects{ project ->
+	group = "us.kellerman.example.springboot"
+	version = '0.1.0'
+}
+
 jar {
-	baseName = 'us.kellerman.example.gradle-springboot-example'
-	version =  '0.1.0'
+	manifest {
+		attributes("Implementation-Title": "Gradle", "Implementation-Version": "${{->version}}")
+	}
 }
 
 repositories {
