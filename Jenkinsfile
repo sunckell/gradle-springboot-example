@@ -3,7 +3,7 @@ node {
     stage 'Checkout'
     
     // Get some code from a GitHub repository
-    git url: 'https://github.com/sunckell/gradle-web-sample.git'
+    git url: 'https://github.com/sunckell/gradle-springboot-example.git'
 
 	
 	// Mark the code build 'stage'....
